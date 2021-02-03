@@ -16,6 +16,6 @@ class ArticleAdmin(admin.ModelAdmin):
     search_fields = ["title"]
 
     list_filter = ["created_date"]
-    
     class Meta:
         model = Article
+
